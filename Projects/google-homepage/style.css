@@ -1,17 +1,22 @@
 body{
     display:block;
     font-size:18px;
-    width:100%;
-    align-items:center;
+    height:100vh;
+    align-content:center;
 }
 
 #bNavbar{
     display:block;
-    overflow: hidden;
+    overflow:hidden;
     position:fixed;
-    width:100%;
+    bottom:0;
+    width:100vw;
     background:#5e5e5e;
-    border-width: 5px;
-    border-color:#2e2e2e;
-
+    border-width: 0px;
+    border-color:#000000;
+    margin-left:-2vh;
+}
+.link{
+    padding-left:30px;
+    text-align:justify;
 }
